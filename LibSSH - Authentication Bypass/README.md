@@ -1,13 +1,22 @@
 # LibSSH - Authentication Bypass 
 ***
+## Documentation
+Exploit-DB : https://www.exploit-db.com/exploits/45638
+
+Information about CVE-2018-10933 by libSSH : https://www.libssh.org/security/advisories/CVE-2018-10933.txt
+
+Bugfix Release by libSSH : https://www.libssh.org/2018/10/16/libssh-0-8-4-and-0-7-6-security-and-bugfix-release/
 
 ## Setup
 
 ```
-git clone 
+python3 -m venv venv
+git clone
+source venv/bin/activate
+pip install
 cd 
-chmod +x 
-
+chmod +x CVE-2018-10933.py
+python3 CVE-2018-10933.py
 ```
 ### EXAMPLE( send command via argument)
 ```
